@@ -2,7 +2,6 @@
 
 // web server
 
-
 const http = require('http');
 
 const server = http.createServer(function(req, res){
@@ -16,11 +15,11 @@ const server = http.createServer(function(req, res){
     res.end(data);
 });
 
-
-
-
 server.listen(1234, function(){
 
 console.log("The a server is working.")
 
 })
+
+
+//First install node js and than use the command  "node webserver.js"
